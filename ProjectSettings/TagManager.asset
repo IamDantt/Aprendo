@@ -13,6 +13,15 @@ TagManager:
   - Tigre
   - Vaca
   - Animals
+  - Tombo
+  - Astronauta
+  - Mecanico
+  - Ingenierio
+  - Bombero
+  - Pintor
+  - Chef
+  - Doctor
+  - Win
   layers:
   - Default
   - TransparentFX

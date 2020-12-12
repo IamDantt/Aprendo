@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4986027269917171749
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4986027269917171739}
+  - component: {fileID: 4986027269917171738}
+  m_Layer: 0
+  m_Name: GestorJAJA
+  m_TagString: Win
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4986027269917171739
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4986027269917171749}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 743.9359, y: 1.5574636, z: -22}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4986027269917171738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4986027269917171749}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfde2d5d7a1a9b54d86ba1cd718075ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Profesiones:
+  - {fileID: 8307391666620789358, guid: 9ea8f555f66942e459cccb54db3b3b09, type: 3}
+  - {fileID: 4130536968599512500, guid: 516ca5ef39c5ee847abae64626db5743, type: 3}
+  - {fileID: 5763326104584647460, guid: 77845b7b4c974144aaf61cc3a21813d8, type: 3}
+  - {fileID: 206294707340862094, guid: 4ed1f5cd8a357724cace350b974158a9, type: 3}
+  - {fileID: 4306662387207519782, guid: 6151d282c9eb3264488855520fbdf962, type: 3}
+  - {fileID: 8188069045223033863, guid: 011e55feadd1590498e3091816406d2a, type: 3}
+  - {fileID: 6383506124741682938, guid: 8613adf5471e115448a1a1836b7a0e6f, type: 3}
+  - {fileID: 490566151785337650, guid: 00faf444ebfb8e543a76514386903912, type: 3}
+  Panel: {fileID: 0}
+  Win: {fileID: 1299100304631092906, guid: 5c3b8d88b93fad6449f8e436cecbb52f, type: 3}
+  Lose: {fileID: 0}
+  Astro: {fileID: 0}
+  Game: {fileID: 0}
+  FirstPant: {fileID: 0}
+  InputName: {fileID: 0}
+  textName: {fileID: 0}
+  PanelText: {fileID: 0}
+  TextProf:
+  - {fileID: 1333507667948530285, guid: c01852f857eddc64a8fc755481a68ca9, type: 3}
+  - {fileID: 7401628982608152179, guid: 6135ee065a3333b439a295c1ca90d686, type: 3}
+  - {fileID: 4566469277944191069, guid: 5a3d27e41c45202428efef16b2ce9c02, type: 3}
+  - {fileID: 6003482910939217640, guid: e9c0d6a0a3a6eb84c8a951a9a2e50921, type: 3}
+  - {fileID: 83374225153503500, guid: c64345b868566b148892ba61222aa482, type: 3}
+  - {fileID: 1636627956077766084, guid: f972065e2e7722348bfdab53ee12ac96, type: 3}
+  - {fileID: 3795017202281569025, guid: 8c2d252de6d5aa54a9d457e093ab236e, type: 3}
+  - {fileID: 4226987066036427066, guid: 4bf47bf420f753241bd4d74c082e4601, type: 3}

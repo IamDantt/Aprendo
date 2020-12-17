@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1200638389499948472}
   - component: {fileID: 439872874188216438}
   - component: {fileID: -5762005011110237068}
-  - component: {fileID: 6030762829118167371}
+  - component: {fileID: -7318307990157178090}
   m_Layer: 5
   m_Name: Astronauta
   m_TagString: Untagged
@@ -120,7 +120,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 6030762829118167371}
+      - m_Target: {fileID: -7318307990157178090}
         m_MethodName: Check
         m_Mode: 1
         m_Arguments:
@@ -131,7 +131,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &6030762829118167371
+--- !u!114 &-7318307990157178090
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -140,7 +140,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 8307391666620789358}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 71eadd5fc9feceb45851a784ef32221f, type: 3}
+  m_Script: {fileID: 11500000, guid: f90c26f5f2c4fb945943fd5d68520762, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WinJ: {fileID: 1299100304631092906, guid: 5c3b8d88b93fad6449f8e436cecbb52f, type: 3}

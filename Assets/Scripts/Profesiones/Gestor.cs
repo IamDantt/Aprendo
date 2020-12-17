@@ -7,28 +7,20 @@ using UnityEngine.SceneManagement;
 public class Gestor : MonoBehaviour
 {
     public GameObject[] Profesiones;
-    public GameObject Panel,Win,Lose,Astro;
+    public GameObject[] ProfesionesText;
+    public GameObject Panel,Win,Lose,PanelText;
     public GameObject Game;
-    public InputField InputName;
+   
 
    
     List <int> numerosGuardados = new List<int> ();
-    int item, CheckNameI;
+    int item;
 
     void Start()
     { 
-      Astro = GameObject.FindWithTag("Astronauta");
-      CheckNameI=PlayerPrefs.GetInt("CheckNameP");   
-      if(CheckNameI==1){
-
-         Game.SetActive(false);
-      }
-      else{
-         Game.SetActive(true);
-      }
-
-
-
+  
+        Game.SetActive(true);
+ 
         for(int i=0; i<3; i++){
             do {
           item = Random.Range(0,8);
@@ -41,6 +33,7 @@ public class Gestor : MonoBehaviour
          } while (numerosGuardados.Contains(item));
           numerosGuardados.Add(item);
            Instantiate (Profesiones[item],Panel.transform);
+           Instantiate (ProfesionesText[item],PanelText.transform);
     }
     void Update(){
        int score = PlayerPrefs.GetInt("CheckScore");
@@ -52,12 +45,7 @@ public class Gestor : MonoBehaviour
           Lose.SetActive(true);
        }
     }
-   public void SaveName(){
-       if(!string.IsNullOrEmpty(InputName.text )){
-       PlayerPrefs.SetString("NameP", InputName.text);
-       PlayerPrefs.SetInt("CheckNameP",1);
-   }
-}
+
 
 public void Restart(){
     PlayerPrefs.SetInt("CheckScore",0);

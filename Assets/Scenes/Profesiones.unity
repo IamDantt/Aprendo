@@ -151,6 +151,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textName: {fileID: 774215582}
+  textEdad: {fileID: 0}
 --- !u!4 &201208223
 Transform:
   m_ObjectHideFlags: 0
@@ -1403,6 +1404,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4986027269917171738, guid: aeda8493e74fc9a4ea479944765e2ef1,
         type: 3}
+      propertyPath: ProfesionesText.Array.size
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4986027269917171738, guid: aeda8493e74fc9a4ea479944765e2ef1,
+        type: 3}
       propertyPath: Panel
       value: 
       objectReference: {fileID: 219059485}
@@ -1441,6 +1447,54 @@ PrefabInstance:
       propertyPath: PanelText
       value: 
       objectReference: {fileID: 1863625486}
+    - target: {fileID: 4986027269917171738, guid: aeda8493e74fc9a4ea479944765e2ef1,
+        type: 3}
+      propertyPath: ProfesionesText.Array.data[0]
+      value: 
+      objectReference: {fileID: 1333507667948530285, guid: c01852f857eddc64a8fc755481a68ca9,
+        type: 3}
+    - target: {fileID: 4986027269917171738, guid: aeda8493e74fc9a4ea479944765e2ef1,
+        type: 3}
+      propertyPath: ProfesionesText.Array.data[1]
+      value: 
+      objectReference: {fileID: 7401628982608152179, guid: 6135ee065a3333b439a295c1ca90d686,
+        type: 3}
+    - target: {fileID: 4986027269917171738, guid: aeda8493e74fc9a4ea479944765e2ef1,
+        type: 3}
+      propertyPath: ProfesionesText.Array.data[2]
+      value: 
+      objectReference: {fileID: 4566469277944191069, guid: 5a3d27e41c45202428efef16b2ce9c02,
+        type: 3}
+    - target: {fileID: 4986027269917171738, guid: aeda8493e74fc9a4ea479944765e2ef1,
+        type: 3}
+      propertyPath: ProfesionesText.Array.data[3]
+      value: 
+      objectReference: {fileID: 6003482910939217640, guid: e9c0d6a0a3a6eb84c8a951a9a2e50921,
+        type: 3}
+    - target: {fileID: 4986027269917171738, guid: aeda8493e74fc9a4ea479944765e2ef1,
+        type: 3}
+      propertyPath: ProfesionesText.Array.data[4]
+      value: 
+      objectReference: {fileID: 83374225153503500, guid: c64345b868566b148892ba61222aa482,
+        type: 3}
+    - target: {fileID: 4986027269917171738, guid: aeda8493e74fc9a4ea479944765e2ef1,
+        type: 3}
+      propertyPath: ProfesionesText.Array.data[5]
+      value: 
+      objectReference: {fileID: 1636627956077766084, guid: f972065e2e7722348bfdab53ee12ac96,
+        type: 3}
+    - target: {fileID: 4986027269917171738, guid: aeda8493e74fc9a4ea479944765e2ef1,
+        type: 3}
+      propertyPath: ProfesionesText.Array.data[6]
+      value: 
+      objectReference: {fileID: 3795017202281569025, guid: 8c2d252de6d5aa54a9d457e093ab236e,
+        type: 3}
+    - target: {fileID: 4986027269917171738, guid: aeda8493e74fc9a4ea479944765e2ef1,
+        type: 3}
+      propertyPath: ProfesionesText.Array.data[7]
+      value: 
+      objectReference: {fileID: 4226987066036427066, guid: 4bf47bf420f753241bd4d74c082e4601,
+        type: 3}
     - target: {fileID: 4986027269917171739, guid: aeda8493e74fc9a4ea479944765e2ef1,
         type: 3}
       propertyPath: m_LocalPosition.x

@@ -15,7 +15,7 @@ public class GameMaster : MonoBehaviour
     public GameObject GroupAnimals,GroupAnimalsBlack,TryAgainT;
     public GameObject Collider1,Collider2,Collider3,Collider4;
     int Animal,CheckNameI, Score1, Score2, Score3,Score4,scoreCheck;
-    public float time = 30;
+    //public float time = 30;
 
     Trigg trigg;
     Trigg2 trigg2;
@@ -49,21 +49,21 @@ public class GameMaster : MonoBehaviour
 
     void Update()
     {
-       time -= Time.deltaTime;
-       UIText.text = time.ToString("f0");
+       //time -= Time.deltaTime;
+       //UIText.text = time.ToString("f0");
        Score1 = trigg.puntuacion;
        Score2 = trigg2.puntuacion2;
        Score3 = trigg3.puntuacion3;
        Score4 = trigg4.puntuacion4;
        scoreCheck = Score1 + Score2 + Score3 + Score4;    
 
-       if(time<=0 && scoreCheck !=4){
+       /*if(time<=0 && scoreCheck !=4){
           Lose.SetActive(true); 
             SfxManager.sfxInstance.Audio.PlayOneShot(SfxManager.sfxInstance.Error);
         }
        else if ( time<=0  && scoreCheck == 4){
           Win.SetActive(true);
-       }
+       }*/
        
     }
      public void TryAgain(){

@@ -566,7 +566,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -1697129138514204047, guid: ccd6cc8351ee728408a8675ef6f06946,
+  m_Sprite: {fileID: 4072345402085190197, guid: ccd6cc8351ee728408a8675ef6f06946,
     type: 3}
   m_Type: 0
   m_PreserveAspect: 1
@@ -2388,6 +2388,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 2086984823}
+        m_MethodName: Comenzar
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &672939005
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2745,7 +2756,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -81, y: 23}
+  m_AnchoredPosition: {x: -102, y: 23}
   m_SizeDelta: {x: 119.591675, y: 93.782715}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &839999810
@@ -5443,17 +5454,17 @@ PrefabInstance:
     - target: {fileID: 798300109431993509, guid: 5c3b8d88b93fad6449f8e436cecbb52f,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 798300109431993509, guid: 5c3b8d88b93fad6449f8e436cecbb52f,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1903191891}
+      objectReference: {fileID: 1119881660}
     - target: {fileID: 798300109431993509, guid: 5c3b8d88b93fad6449f8e436cecbb52f,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: BttnCheck
+      value: IrScene
       objectReference: {fileID: 0}
     - target: {fileID: 798300109431993509, guid: 5c3b8d88b93fad6449f8e436cecbb52f,
         type: 3}
@@ -5488,6 +5499,16 @@ PrefabInstance:
     - target: {fileID: 798300109431993509, guid: 5c3b8d88b93fad6449f8e436cecbb52f,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_IntArgument
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 798300109431993509, guid: 5c3b8d88b93fad6449f8e436cecbb52f,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 798300109431993509, guid: 5c3b8d88b93fad6449f8e436cecbb52f,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1299100304631092906, guid: 5c3b8d88b93fad6449f8e436cecbb52f,
@@ -5605,20 +5626,35 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 6148974579362743182, guid: 5c3b8d88b93fad6449f8e436cecbb52f,
+    - target: {fileID: 2187851956248541253, guid: 5c3b8d88b93fad6449f8e436cecbb52f,
         type: 3}
       propertyPath: m_Color.r
-      value: 0.9686275
+      value: 0.96862745
       objectReference: {fileID: 0}
-    - target: {fileID: 6148974579362743182, guid: 5c3b8d88b93fad6449f8e436cecbb52f,
+    - target: {fileID: 2187851956248541253, guid: 5c3b8d88b93fad6449f8e436cecbb52f,
         type: 3}
       propertyPath: m_Color.g
       value: 0.30588236
       objectReference: {fileID: 0}
-    - target: {fileID: 6148974579362743182, guid: 5c3b8d88b93fad6449f8e436cecbb52f,
+    - target: {fileID: 2187851956248541253, guid: 5c3b8d88b93fad6449f8e436cecbb52f,
         type: 3}
       propertyPath: m_Color.b
       value: 0.07450981
+      objectReference: {fileID: 0}
+    - target: {fileID: 6148974579362743182, guid: 5c3b8d88b93fad6449f8e436cecbb52f,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6148974579362743182, guid: 5c3b8d88b93fad6449f8e436cecbb52f,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6148974579362743182, guid: 5c3b8d88b93fad6449f8e436cecbb52f,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5c3b8d88b93fad6449f8e436cecbb52f, type: 3}
@@ -6120,7 +6156,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -81, y: 23}
+  m_AnchoredPosition: {x: -103.9, y: 23}
   m_SizeDelta: {x: 119.591675, y: 93.782715}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1926301713
@@ -6249,17 +6285,17 @@ PrefabInstance:
     - target: {fileID: 798300109431993509, guid: 5c3b8d88b93fad6449f8e436cecbb52f,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 798300109431993509, guid: 5c3b8d88b93fad6449f8e436cecbb52f,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1903191891}
+      objectReference: {fileID: 1998785617}
     - target: {fileID: 798300109431993509, guid: 5c3b8d88b93fad6449f8e436cecbb52f,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: BttnCheck
+      value: IrScene
       objectReference: {fileID: 0}
     - target: {fileID: 798300109431993509, guid: 5c3b8d88b93fad6449f8e436cecbb52f,
         type: 3}
@@ -6294,6 +6330,16 @@ PrefabInstance:
     - target: {fileID: 798300109431993509, guid: 5c3b8d88b93fad6449f8e436cecbb52f,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_IntArgument
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 798300109431993509, guid: 5c3b8d88b93fad6449f8e436cecbb52f,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 798300109431993509, guid: 5c3b8d88b93fad6449f8e436cecbb52f,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1299100304631092906, guid: 5c3b8d88b93fad6449f8e436cecbb52f,
@@ -6522,7 +6568,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 88, y: 23}
+  m_AnchoredPosition: {x: 109, y: 23}
   m_SizeDelta: {x: 119.591675, y: 93.782715}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2029115983
@@ -6648,6 +6694,17 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 378030081}
         m_MethodName: Boy
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2086984823}
+        m_MethodName: Comenzar
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6856,10 +6913,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ad6a861d0ed7d3448a0da14f2929d37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  time: 30
+  time: 120
   UIText: {fileID: 797545590}
   Win: {fileID: 116913659}
   Lose: {fileID: 1998785618}
+  PComenzar: {fileID: 1437392633}
 --- !u!4 &2086984824
 Transform:
   m_ObjectHideFlags: 0
@@ -6908,7 +6966,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 88, y: 23}
+  m_AnchoredPosition: {x: 109.9, y: 23}
   m_SizeDelta: {x: 119.591675, y: 93.782715}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2094343435

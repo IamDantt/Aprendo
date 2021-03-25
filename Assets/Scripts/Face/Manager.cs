@@ -17,6 +17,8 @@ public class Manager : MonoBehaviour
 
      int Score;
 
+    public static bool GHFaceParts = false;
+
     void Start()
     {
 
@@ -206,7 +208,8 @@ public void BttnCheck(){
 
        Win.SetActive(true);
        Lose.SetActive(false);
-            SfxManager.sfxInstance.Audio.PlayOneShot(SfxManager.sfxInstance.Confirm);
+            SfxManager.sfxInstance.Audio.PlayOneShot(SfxManager.sfxInstance.Win);
+            GHFaceParts = true;
 
         }
   else{

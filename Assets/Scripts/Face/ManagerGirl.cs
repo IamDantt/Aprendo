@@ -17,6 +17,8 @@ public class ManagerGirl : MonoBehaviour
 
      int Score;
 
+    public static bool GMFacePart = false;
+
     void Start()
     {
 
@@ -205,7 +207,8 @@ public void BttnCheck(){
 
        Win.SetActive(true);
        Lose.SetActive(false);
-            SfxManager.sfxInstance.Audio.PlayOneShot(SfxManager.sfxInstance.Confirm);
+            SfxManager.sfxInstance.Audio.PlayOneShot(SfxManager.sfxInstance.Win);
+            GMFacePart = true;
 
         }
   else{

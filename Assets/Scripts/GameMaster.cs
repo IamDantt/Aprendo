@@ -17,6 +17,8 @@ public class GameMaster : MonoBehaviour
     int Animal,CheckNameI, Score1, Score2, Score3,Score4,scoreCheck;
     //public float time = 30;
 
+    public static bool GSombras = false;
+
     Trigg trigg;
     Trigg2 trigg2;
     Trigg3 trigg3;
@@ -76,7 +78,9 @@ public class GameMaster : MonoBehaviour
 
         if (scoreCheck == 4) {
             Win.SetActive(true);
-            SfxManager.sfxInstance.Audio.PlayOneShot(SfxManager.sfxInstance.Confirm);
+            GSombras = true;
+            SfxManager.sfxInstance.Audio.PlayOneShot(SfxManager.sfxInstance.Win);
+            
         }
         else {
             TryAgainT.SetActive(true);

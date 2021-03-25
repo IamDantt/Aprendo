@@ -4,9 +4,10 @@ using UnityEngine;
 
 public class BgMusic : MonoBehaviour
 {
+    
     public static BgMusic BgInstace;
-
-    private void Awake()
+    
+   private void Awake()
     {
         if(BgInstace != null && BgInstace != this)
         {

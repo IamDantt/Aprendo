@@ -10,7 +10,8 @@ public class Gestor : MonoBehaviour
     public GameObject[] ProfesionesText;
     public GameObject Panel,Win,Lose,PanelText;
     public GameObject Game;
-   
+
+    public static bool GProfesiones = false;
 
    
     List <int> numerosGuardados = new List<int> ();
@@ -40,7 +41,8 @@ public class Gestor : MonoBehaviour
        Debug.Log(score);
        if(score==1){
           Win.SetActive(true);
-       }
+          GProfesiones = true;
+        }
        if(score == 2){
           Lose.SetActive(true);
        }

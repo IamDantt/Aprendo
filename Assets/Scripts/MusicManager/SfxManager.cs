@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class SfxManager : MonoBehaviour
 {
-    public AudioSource Audio;
-    public AudioClip Play, Confirm, Arrows, Back, Menu, Info, Perfil, Drag, Error, Touch;
+   public AudioSource Audio;
+    public AudioClip Play, Confirm, Arrows, Back, Menu, Info, Perfil, Drag, Error, Touch, Win;
 
     public static SfxManager sfxInstance;
 
-    private void Awake()
+  private void Awake()
     {
         if (sfxInstance != null && sfxInstance != this)
         {
@@ -18,5 +18,5 @@ public class SfxManager : MonoBehaviour
         }
         sfxInstance = this;
         DontDestroyOnLoad(this);
-    }
+    } 
 }

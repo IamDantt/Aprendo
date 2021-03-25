@@ -22,6 +22,7 @@ TagManager:
   - Tombo
   - Pintor
   - Astro
+  - _BgMusic
   layers:
   - Default
   - TransparentFX

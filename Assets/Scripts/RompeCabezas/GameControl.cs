@@ -16,6 +16,8 @@ public class GameControl : MonoBehaviour
 
     public static bool youWin;
 
+    public static bool GRompeCabezas;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -43,7 +45,8 @@ public class GameControl : MonoBehaviour
         if (youWin == true)
         {
             Win.SetActive(true);
-            SfxManager.sfxInstance.Audio.PlayOneShot(SfxManager.sfxInstance.Play);
+            GRompeCabezas = true;
+            SfxManager.sfxInstance.Audio.PlayOneShot(SfxManager.sfxInstance.Win);
         }
         else
         {
